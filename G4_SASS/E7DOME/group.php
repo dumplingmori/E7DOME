@@ -94,8 +94,8 @@ try {
 			<div class="teamOne ">
 				<div class="teamDate_top">
 					<div class="dateGroup">
-						<div class="teamDay"><?php echo substr($teamsRow["BOO_DATETIME"],8,2);?></div>
-						<div class="teamMonth"><?php echo date("M",strtotime($teamsRow["BOO_DATETIME"]));?></div>
+						<div class="teamDay"><?php echo substr($teamsRow["BOO_DATE"],8,2);?></div>
+						<div class="teamMonth"><?php echo date("M",strtotime($teamsRow["BOO_DATE"]));?></div>
 					</div>
 				</div>
 				<div class="teamPic">
